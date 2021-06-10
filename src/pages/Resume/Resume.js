@@ -112,7 +112,7 @@ const Resume = () => {
         <Grid container spacing={6} className="section pt_45 pb_45">
                {/*Contact Form*/}
             <Grid item xs={12} lg={6}>
-            <form name="contact"  method="POST" data-netlify="true">
+            <form name="contact v1"  method="post" data-netlify="true" onSubmit="Submit">
                 <Grid container >
                     <Grid item className="section_title mb_30">
                         <span></span>
@@ -120,14 +120,15 @@ const Resume = () => {
                     </Grid>
                     <Grid item  xs={12}>
                         <Grid container spacing={3}>
+                            <input type="hidden" name="form-name" value="contact v1" />
                             <Grid item xs={12} sm={6}>
-                                <TextField fullWidth name="name" label='Name' />
+                                <TextField fullWidth type="text" name="name" label='Name' />
                             </Grid>
                             <Grid item xs={12} sm={6}>
-                                <TextField fullWidth name="email" label='E-mail' />
+                                <TextField fullWidth type="email" name="email" label='E-mail' />
                             </Grid>
                             <Grid item xs={12}>
-                                <TextField fullWidth name="message" label='Your message' multiline rows={4}/>
+                                <TextField fullWidth type="text" name="message" label='Your message' multiline rows={4}/>
                             </Grid>
                             <Grid item xs={12}>
                                 <div data-netlify-recaptcha="true"></div>
