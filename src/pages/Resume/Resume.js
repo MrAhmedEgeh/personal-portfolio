@@ -111,7 +111,8 @@ const Resume = () => {
         {/*Contact*/}
         <Grid container spacing={6} className="section pt_45 pb_45">
                {/*Contact Form*/}
-            <Grid item xs={12} lg={7}>
+            <Grid item xs={12} lg={6}>
+            <form  method="post" data-netlify="true">
                 <Grid container >
                     <Grid item className="section_title mb_30">
                         <span></span>
@@ -129,11 +130,15 @@ const Resume = () => {
                                 <TextField fullWidth name="message" label='Your message' multiline rows={4}/>
                             </Grid>
                             <Grid item xs={12}>
-                                <CustomButton text="Submit" />
+                                <div data-netlify-recaptcha="true"></div>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <button className="btn-sub" type="submit"><CustomButton text="Submit" /></button>
                             </Grid>
                         </Grid>
                     </Grid>
                 </Grid>
+                </form>
             </Grid>
                {/*Contact Information*/}
             <Grid item xs={12} lg={5}>

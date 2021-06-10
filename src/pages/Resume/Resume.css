@@ -95,3 +95,7 @@
   color: black;
 }
 /* END OF CONTACTS */
+.btn-sub {
+  border: 0;
+  background-color: white;
+}
