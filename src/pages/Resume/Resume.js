@@ -10,7 +10,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import CustomButton from '../../components/Button/Button'
-import success from '../Success ';
+
 const Resume = () => {
     return(
         <>
@@ -112,7 +112,7 @@ const Resume = () => {
         <Grid container spacing={6} className="section pt_45 pb_45">
                {/*Contact Form*/}
             <Grid item xs={12} lg={6}>
-            <form name="contact" method="post"  data-netlify="true" onSubmit="submit">
+            <form name="contact" action="thank-you" method="post"  data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
                 <Grid container >
                     <Grid item className="section_title mb_30">
@@ -123,13 +123,13 @@ const Resume = () => {
                         <Grid container spacing={3}>
                        
                             <Grid item xs={12} sm={6}>
-                                <TextField fullWidth type="text" name="name" label='Name' />
+                                <TextField fullWidth type="text" name="name" label='Name' required/>
                             </Grid>
                             <Grid item xs={12} sm={6}>
-                                <TextField fullWidth type="email" name="email" label='E-mail' />
+                                <TextField fullWidth type="email" name="email" label='E-mail' required/>
                             </Grid>
                             <Grid item xs={12}>
-                                <TextField fullWidth type="text" name="message" label='Your message' multiline rows={4}/>
+                                <TextField fullWidth type="text" name="message" label='Your message' multiline rows={4} required/>
                             </Grid>
                           
                             <div data-netlify-recaptcha="true"></div>
