@@ -131,10 +131,9 @@ const Resume = () => {
                             <Grid item xs={12}>
                                 <TextField fullWidth type="text" name="message" label='Your message' multiline rows={4} required/>
                             </Grid>
-                          
-                            <div data-netlify-recaptcha="true"></div>
                          
                             <Grid item xs={12}>
+                            <div data-netlify-recaptcha="true"></div>
                                 <button className="btn-sub" type="submit"><CustomButton text="Submit" /></button>
                             </Grid>
                         </Grid>
