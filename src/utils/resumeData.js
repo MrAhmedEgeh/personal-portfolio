@@ -123,7 +123,7 @@ export default {
         image: psd,
         title: 'PSD TO HTML & CSS',
         caption: 'I turned a PSD file into HTML & CSS',
-        description: 'this is my project description',
+        description: 'In this project I have downloaded a PSD I found online and tried to design it using HTML & CSS, and it took me some days but I was able to fully design it in a responsive way. Click on the icon to see the project on github.',
         links:[
             {link: 'https://github.com/MrAhmedEgeh/html-css-template1', icon: <GitHubIcon />}
         ]
@@ -132,8 +132,8 @@ export default {
             tag: 'HTML & CSS',
             image: pizza,
             title: 'Pizza Website',
-            caption: 'A Pizza Website using HTML & CSS',
-            description: 'this is my project description',
+            caption: 'A Pizza Website using HTML & CSS & Bootstrap',
+            description: 'In this project, I designed a website completely from scratch, the design is my original design I have not copied it, I used HTML, CSS and Bootstrap. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/pizzaWebsite', icon: <GitHubIcon />}
             ]
@@ -143,7 +143,7 @@ export default {
         image: todo,
         title: 'Todo List App',
         caption: 'Using OOP JS I have created Todo list app',
-        description: 'this is my project description',
+        description: 'I created this project to train myself to Object oriented programming using javascript, I am fimiliar with Object oreinted programming in many languages but this was my first in Javascript. Click on the icon to see the project on github.',
         links:[
             {link: 'https://github.com/MrAhmedEgeh/todo-app-JS-OOP', icon: <GitHubIcon />}
         ]
@@ -153,7 +153,7 @@ export default {
             image: faq,
             title: 'FAQ Page',
             caption: 'FAQ Page using vanilla JS',
-            description: 'this is my project description',
+            description: 'This is a quite simple project I made on the spot using Javascript, it is a simple FAQ page. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/FAQ-JS', icon: <GitHubIcon />}
             ]
@@ -163,7 +163,7 @@ export default {
             image: tic,
             title: 'Tic Tac Toe',
             caption: 'I made a User against computer tic tac toe',
-            description: 'this is my project description',
+            description: 'This project was hectic but fun also, I created it using vanilla JS, it is a tic tac toe and the player plays against the computer. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-vanilla-JS', icon: <GitHubIcon />}
             ]
@@ -173,7 +173,7 @@ export default {
             image: pass,
             title: 'Password Generator',
             caption: 'Password generator using React js',
-            description: 'this is my project description',
+            description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
             ]
@@ -183,7 +183,7 @@ export default {
             image: calc,
             title: 'Calculator',
             caption: 'A calculator using React JS',
-            description: 'this is my project description',
+            description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
             ]
@@ -193,7 +193,7 @@ export default {
             image: toe,
             title: 'Tic Tac Toe',
             caption: 'A Tic Tac Toe using React JS',
-            description: 'this is my project description',
+            description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
             ]
