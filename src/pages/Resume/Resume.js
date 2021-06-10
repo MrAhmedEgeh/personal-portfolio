@@ -112,7 +112,7 @@ const Resume = () => {
         <Grid container spacing={6} className="section pt_45 pb_45">
                {/*Contact Form*/}
             <Grid item xs={12} lg={6}>
-            <form name="contact" action='thank-you' method="post"  data-netlify="true" onSubmit="submit">
+            <form name="contact" action='thank-you'  data-netlify="true" onSubmit="submit">
             <input type="hidden" name="form-name" value="contact" />
                 <Grid container >
                     <Grid item className="section_title mb_30">
