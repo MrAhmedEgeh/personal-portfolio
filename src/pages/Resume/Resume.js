@@ -112,7 +112,7 @@ const Resume = () => {
         <Grid container spacing={6} className="section pt_45 pb_45">
                {/*Contact Form*/}
             <Grid item xs={12} lg={6}>
-            <form name="contact v1"  method="post" data-netlify="true" onSubmit="Submit">
+            <form name="contact" netlify>
                 <Grid container >
                     <Grid item className="section_title mb_30">
                         <span></span>
@@ -120,7 +120,7 @@ const Resume = () => {
                     </Grid>
                     <Grid item  xs={12}>
                         <Grid container spacing={3}>
-                            <input type="hidden" name="form-name" value="contact v1" />
+                       
                             <Grid item xs={12} sm={6}>
                                 <TextField fullWidth type="text" name="name" label='Name' />
                             </Grid>
