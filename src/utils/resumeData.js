@@ -38,8 +38,8 @@ export default {
             icon: <TwitterIcon />
         },*/
         LinkedIn:{
-            link: 'https://www.linkedin.com/in/ahmed-egeh-204188214/',
-            text: 'My LinkedIn',
+            link: 'https://www.linkedin.com/in/mrahmedegeh',
+            text: 'mrahmedegeh',
             icon: <LinkedInIcon />
         },
         Github:{
