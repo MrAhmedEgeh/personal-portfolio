@@ -38,6 +38,7 @@ const Portfolio = () => {
                             <CardMedia className='custom_card_image' image={project.image} title={project.title}/>
                             <CardContent variant='body2'>
                                 <Typography className='custom_card_title'>{project.title}</Typography>
+                                <Grid item className='custom_card_tags_con'>{project.tags?.map(el => (<span class='custom_card_tags'>{el}</span>))}</Grid>
                                 <Typography variant='body2' className='custom_card_caption'>{project.caption}</Typography>
                             </CardContent>
                         </CardActionArea>
@@ -53,6 +54,7 @@ const Portfolio = () => {
             <DialogTitle onClose={() => setProjectDialog(false)}>{projectDialog.title}</DialogTitle>
             <img src={projectDialog.image} alt="" className="projectDialog_image"/>
             <DialogContent>
+            <Grid item className='custom_card_tags_con'>{projectDialog.tags?.map(el => (<span class='custom_card_tags'>{el}</span>))}</Grid>
                 <Typography className="projectDialog_description">{projectDialog.description}</Typography>
             </DialogContent>
             <DialogActions className="projectDialog_actions">

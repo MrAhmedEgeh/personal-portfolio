@@ -34,6 +34,16 @@
 .custom_card_title {
   font-weight: 500;
 }
+.custom_card_tags_con {
+  margin-bottom: 8px !important;
+}
+.custom_card_tags {
+  font-size: 10px;
+  margin-right: 5px;
+  background-color: var(--main-color);
+  padding: 5px;
+  border-radius: 20px;
+}
 .custom_card_caption {
   color: gray !important;
   font-weight: 400;

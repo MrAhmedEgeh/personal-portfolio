@@ -17,6 +17,7 @@ import tic from '../assests/images/tic.png';
 import pass from '../assests/images/pass.jpg';
 import calc from '../assests/images/calc.jpg';
 import toe from '../assests/images/toe.jpg';
+import emailtemp from '../assests/images/email template.jpg';
 export default {
     name: 'Ahmed Egeh',
     title: 'Full stack web developer',
@@ -119,7 +120,19 @@ export default {
     ],
     projects: [
         {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS', 'CSS Flexbox'],
+            image: emailtemp,
+            title: 'Email template',
+            caption: 'As a task in my internship in Alqoud Enterprise',
+            description: 'As a task in my internship in Alqoud Enterprise, I was asked to design an email template that can be used in a contact us form for an app we were developing. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/email-template', icon: <GitHubIcon />}
+            ]
+            },
+        {
         tag: 'HTML & CSS',
+        tags: ['HTML', 'CSS', 'CSS Float', 'CSS Flexbox'],
         image: psd,
         title: 'PSD TO HTML & CSS',
         caption: 'I turned a PSD file into HTML & CSS',
@@ -130,6 +143,7 @@ export default {
         },
         {
             tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS', 'Vanilla JS', 'Bootstrap Grid'],
             image: pizza,
             title: 'Pizza Website',
             caption: 'A Pizza Website using HTML & CSS & Bootstrap',
@@ -140,6 +154,7 @@ export default {
             },
         {
         tag: 'Vanilla JS',
+        tags: ['HTML', 'CSS', 'Vanilla JS', 'JS OOP'],
         image: todo,
         title: 'Todo List App',
         caption: 'Using OOP JS I have created Todo list app',
@@ -150,6 +165,7 @@ export default {
         },
         {
             tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
             image: faq,
             title: 'FAQ Page',
             caption: 'FAQ Page using vanilla JS',
@@ -160,6 +176,7 @@ export default {
         },
         {
             tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
             image: tic,
             title: 'Tic Tac Toe',
             caption: 'I made a User against computer tic tac toe',
@@ -170,6 +187,7 @@ export default {
         },
         {
             tag: 'React JS',
+            tags: ['React Js'],
             image: pass,
             title: 'Password Generator',
             caption: 'Password generator using React js',
@@ -180,6 +198,7 @@ export default {
         },
         {
             tag: 'React JS',
+            tags: ['React Js'],
             image: calc,
             title: 'Calculator',
             caption: 'A calculator using React JS',
@@ -190,6 +209,7 @@ export default {
         },
         {
             tag: 'React JS',
+            tags: ['React Js'],
             image: toe,
             title: 'Tic Tac Toe',
             caption: 'A Tic Tac Toe using React JS',
