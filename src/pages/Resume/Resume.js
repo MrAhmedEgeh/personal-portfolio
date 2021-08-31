@@ -40,6 +40,7 @@ const Resume = () => {
                                     <CustomTimeLineSeparator />
                                     <TimelineContent className="timeline_content">
                                         <Typography className="timeline_title" >{experience.title}</Typography>
+                                        <Typography variant="caption" className="timeline_place">{experience.place}</Typography><br/>
                                         <Typography variant="caption" className="timeline_date">{experience.date}</Typography>
                                         <Typography variant="body2" className="timeline_description">{experience.description}</Typography>
                                     </TimelineContent>

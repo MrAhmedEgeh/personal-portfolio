@@ -57,7 +57,14 @@ export default {
     aboutme: `I am a passionate web developer who's not only in love with the web but with programming and IT in general. I currently in my last year and will graduate in February 2022.  I am a full stack web developer, I use React JS in the Front End and PHP AND MYSQL in the Back end. \n\n Learning new technologies and frameworks facientae me and keep me fired up, I am always trying to learn and get new skills, I might not be the smartest in the room but I am definitely the hardest worker`,
     experiences: [
         {
+            title: 'Web & App developer intern',
+            place: 'Bahrain - Manama',
+            date: '1st July 2021 - 31st August 2021',
+            description: 'I have worked in Alqoud Enterprise for 2 months of internship, I was working in the IT department and worked in developing the Natural Bites App for Android using Flutter and Dart, I also worked with Firebase and Firestore databases.'
+        },
+        {
             title: 'Help disk',
+            place: 'Saudi Arabia - AL Khobar',
             date: 'Juanuary 2017 - May 2017',
             description: 'Assistant in a Building materials company where I was responsible of paper work and making reports and also fixing, updating and maintaining programs and PCs for the company'
         }
