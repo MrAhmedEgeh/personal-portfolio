@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -18,6 +19,19 @@ import pass from '../assests/images/pass.jpg';
 import calc from '../assests/images/calc.jpg';
 import toe from '../assests/images/toe.jpg';
 import emailtemp from '../assests/images/email template.jpg';
+import sidemenu from '../assests/images/Side Menu.png';
+import loginform from '../assests/images/loginform.png';
+import logoanim from '../assests/images/logoanim.png';
+import narcos from '../assests/images/Narcos.png';
+import onepiece from '../assests/images/onepiece.png';
+import counter from '../assests/images/counter.png';
+import colorGenerator from '../assests/images/colorgenerator.png';
+import survey from '../assests/images/surveyform.png';
+import landing from '../assests/images/landingpage.png';
+import technicalDoc from '../assests/images/technicaldoc.png';
+import portofolio from '../assests/images/personalporto.png';
+import Fyodor from '../assests/images/Fyodor Dostoyevsky.png';
+
 export default {
     name: 'Ahmed Egeh',
     title: 'Full stack web developer',
@@ -127,6 +141,171 @@ export default {
     ],
     projects: [
         {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: pass,
+            title: 'Password Generator',
+            caption: 'Password generator using React js',
+            description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: calc,
+            title: 'Calculator',
+            caption: 'A calculator using React JS',
+            description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: toe,
+            title: 'Tic Tac Toe',
+            caption: 'A Tic Tac Toe using React JS',
+            description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: technicalDoc,
+            title: 'A Technical documentation',
+            caption: 'A Technical documentation page made with HTML and CSS',
+            description: 'A Technical documentation page made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/technical-documentation', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: portofolio,
+            title: 'A Portfolio page',
+            caption: 'A basic portofolio page made with HTML and CSS',
+            description: 'A basic portofolio page made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/personal-portfolio-HTMLCSS', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: landing,
+            title: 'A Landing page',
+            caption: 'A Landing page made with HTML and CSS',
+            description: 'A Landing page made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/product-landing', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: survey,
+            title: 'A Survey Form',
+            caption: 'A survey form made with HTML and CSS',
+            description: 'A survey form made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/survey-form', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
+            image: Fyodor,
+            title: 'Dostoyevsky Tribute Page',
+            caption: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS',
+            description: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/Fyodor-Dostoyevsky', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
+            image: colorGenerator,
+            title: 'Color generator app',
+            caption: 'Color generator app with javascript',
+            description: 'A Color generator made with vanilla javascript. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/color-generator-js', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
+            image: counter,
+            title: 'Counter App',
+            caption: 'Counter app made with javascript',
+            description: 'A counter app made with vanilla javascript. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/counter-app', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: onepiece,
+            title: 'One Piece card design',
+            caption: 'One Piece card design using HTML and CSS',
+            description: 'I made a simple design for One piece anime. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/one-piece-card', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: narcos,
+            title: 'Movie Card with animation',
+            caption: 'Narcos tv show card design using HTML and CSS',
+            description: 'Narcos tv show card design using HTML and CSS, the animation was entirely made with pure CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/movie-card-animation', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: logoanim,
+            title: 'Logo Animation with HTML & CSS',
+            caption: 'I made a login form with an animation using just HTML&CSS',
+            description: 'I made a login form with an animation using just HTML&CSS, everthing is made with pure CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/logo-animation', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: loginform,
+            title: 'Login Form With Animation',
+            caption: 'I made a login form with an animation using HTML&CSS',
+            description: 'I a login form with an animation using HTML & CSS, simple and straight to the point. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/login-form', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS'],
+            image: sidemenu,
+            title: 'Responsive Side Menu',
+            caption: 'I made a responsive side menu using HTML&CSS',
+            description: 'I made a responsive side menu using HTML&CSS, simple and straight to the point. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/sidemenu', icon: <GitHubIcon />},
+            ]
+        },
+        {
             tag: 'HTML & CSS',
             tags: ['HTML', 'CSS', 'CSS Flexbox'],
             image: emailtemp,
@@ -134,9 +313,9 @@ export default {
             caption: 'As a task in my internship in Alqoud Enterprise',
             description: 'As a task in my internship in Alqoud Enterprise, I was asked to design an email template that can be used in a contact us form for an app we were developing. Click on the icon to see the project on github.',
             links:[
-                {link: 'https://github.com/MrAhmedEgeh/email-template', icon: <GitHubIcon />}
+                {link: 'https://github.com/MrAhmedEgeh/email-template', icon: <GitHubIcon />},
             ]
-            },
+        },
         {
         tag: 'HTML & CSS',
         tags: ['HTML', 'CSS', 'CSS Float', 'CSS Flexbox'],
@@ -190,39 +369,6 @@ export default {
             description: 'This project was hectic but fun also, I created it using vanilla JS, it is a tic tac toe and the player plays against the computer. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-vanilla-JS', icon: <GitHubIcon />}
-            ]
-        },
-        {
-            tag: 'React JS',
-            tags: ['React Js'],
-            image: pass,
-            title: 'Password Generator',
-            caption: 'Password generator using React js',
-            description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
-            ]
-        },
-        {
-            tag: 'React JS',
-            tags: ['React Js'],
-            image: calc,
-            title: 'Calculator',
-            caption: 'A calculator using React JS',
-            description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
-            ]
-        },
-        {
-            tag: 'React JS',
-            tags: ['React Js'],
-            image: toe,
-            title: 'Tic Tac Toe',
-            caption: 'A Tic Tac Toe using React JS',
-            description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
             ]
         },
 ]

@@ -30,7 +30,7 @@ function App() {
              <Portfolio />
           </Route>
 
-          <Route path='/'>
+          <Route exact path='/'>
               <Resume />
           </Route>
           </Switch>
