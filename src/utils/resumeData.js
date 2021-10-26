@@ -31,6 +31,7 @@ import landing from '../assests/images/landingpage.png';
 import technicalDoc from '../assests/images/technicaldoc.png';
 import portofolio from '../assests/images/personalporto.png';
 import Fyodor from '../assests/images/Fyodor Dostoyevsky.png';
+import imgslider from '../assests/images/imgslider.png';
 
 export default {
     name: 'Ahmed Egeh',
@@ -140,39 +141,6 @@ export default {
         }
     ],
     projects: [
-        {
-            tag: 'React JS',
-            tags: ['React Js'],
-            image: pass,
-            title: 'Password Generator',
-            caption: 'Password generator using React js',
-            description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
-            ]
-        },
-        {
-            tag: 'React JS',
-            tags: ['React Js'],
-            image: calc,
-            title: 'Calculator',
-            caption: 'A calculator using React JS',
-            description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
-            ]
-        },
-        {
-            tag: 'React JS',
-            tags: ['React Js'],
-            image: toe,
-            title: 'Tic Tac Toe',
-            caption: 'A Tic Tac Toe using React JS',
-            description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
-            ]
-        },
         {
             tag: 'HTML & CSS',
             tags: ['HTML', 'CSS'],
@@ -369,6 +337,50 @@ export default {
             description: 'This project was hectic but fun also, I created it using vanilla JS, it is a tic tac toe and the player plays against the computer. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-vanilla-JS', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: pass,
+            title: 'Password Generator',
+            caption: 'Password generator using React js',
+            description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: calc,
+            title: 'Calculator',
+            caption: 'A calculator using React JS',
+            description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: toe,
+            title: 'Tic Tac Toe',
+            caption: 'A Tic Tac Toe using React JS',
+            description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: imgslider,
+            title: 'Image Slider',
+            caption: 'An Image slider using React js',
+            description: 'This project is an image slider made with React js. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/react-image-slider', icon: <GitHubIcon />}
             ]
         },
 ]
