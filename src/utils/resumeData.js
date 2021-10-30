@@ -32,6 +32,7 @@ import technicalDoc from '../assests/images/technicaldoc.png';
 import portofolio from '../assests/images/personalporto.png';
 import Fyodor from '../assests/images/Fyodor Dostoyevsky.png';
 import imgslider from '../assests/images/imgslider.png';
+import weather from '../assests/images/weather.png';
 
 export default {
     name: 'Ahmed Egeh',
@@ -381,6 +382,17 @@ export default {
             description: 'This project is an image slider made with React js. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/react-image-slider', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: weather,
+            title: 'Weather App',
+            caption: 'A Weather App I made using React js',
+            description: 'This project is a weather app made using React js and I used a weather API from open weather map site. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/weather-app', icon: <GitHubIcon />}
             ]
         },
 ]
