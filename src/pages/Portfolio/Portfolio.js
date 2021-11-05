@@ -63,6 +63,9 @@ const Portfolio = () => {
             )) }
             </DialogActions>
         </Dialog>
+        <Grid item className="numprojcontainer">
+            <p className="numberofprojects">A total of {resumeData.projects.length} projects</p>
+        </Grid>
        </Grid>
 
     );
