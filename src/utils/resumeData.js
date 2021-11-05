@@ -33,6 +33,7 @@ import portofolio from '../assests/images/personalporto.png';
 import Fyodor from '../assests/images/Fyodor Dostoyevsky.png';
 import imgslider from '../assests/images/imgslider.png';
 import weather from '../assests/images/weather.png';
+import fatine from '../assests/images/fatine.png';
 
 export default {
     name: 'Ahmed Egeh',
@@ -318,6 +319,17 @@ export default {
             {link: 'https://github.com/MrAhmedEgeh/todo-app-JS-OOP', icon: <GitHubIcon />}
         ]
         },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
+            image: fatine,
+            title: 'Portfolio Website',
+            caption: 'A portfolio website for a friend',
+            description: 'I created this website using HTML, CSS and Javascript for a friend so he can put out his skills and knowledge for potential recruiters. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/todo-app-JS-OOP', icon: <GitHubIcon />}
+            ]
+            },
         {
             tag: 'Vanilla JS',
             tags: ['HTML', 'CSS', 'Vanilla JS'],
