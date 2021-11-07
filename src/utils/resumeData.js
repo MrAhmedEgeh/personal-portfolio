@@ -34,6 +34,7 @@ import Fyodor from '../assests/images/Fyodor Dostoyevsky.png';
 import imgslider from '../assests/images/imgslider.png';
 import weather from '../assests/images/weather.png';
 import fatine from '../assests/images/fatine.png';
+import todoApp from '../assests/images/todoApp.png';
 
 export default {
     name: 'Ahmed Egeh',
@@ -325,9 +326,9 @@ export default {
             image: fatine,
             title: 'Portfolio Website',
             caption: 'A portfolio website for a friend',
-            description: 'I created this website using HTML, CSS and Javascript for a friend so he can put out his skills and knowledge for potential recruiters. Click on the icon to see the project on github.',
+            description: 'I created this website using HTML, CSS and Javascript for a friend so he can put out his skills and knowledge for potential recruiters.',
             links:[
-                {link: 'https://github.com/MrAhmedEgeh/todo-app-JS-OOP', icon: <GitHubIcon />}
+                {link: 'https://fatine.ga', icon: <LanguageIcon />}
             ]
             },
         {
@@ -405,6 +406,17 @@ export default {
             description: 'This project is a weather app made using React js and I used a weather API from open weather map site. Click on the icon to see the project on github.',
             links:[
                 {link: 'https://github.com/MrAhmedEgeh/weather-app', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js', 'SASS'],
+            image: todoApp,
+            title: 'Todo List App',
+            caption: 'A Todo List App made by using React js and its hooks and SASS',
+            description: 'This project is a Todo App made by React js and its hooks like useEffect, useRef and useState and also by using SASS instead of CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/react-todo-app', icon: <GitHubIcon />}
             ]
         },
 ]
