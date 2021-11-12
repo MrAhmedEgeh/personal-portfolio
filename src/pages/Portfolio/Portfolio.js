@@ -7,7 +7,7 @@ const Portfolio = () => {
 
     const [tabValue, setTabValue] = useState("All");
     const [projectDialog, setProjectDialog] = useState(false);
-
+    const [numberOfProjects, SetNumberOfProjects] = useState(0);
 
     return(
        <Grid container spacing={1} className="pb_45 pt_45 section mb_20">
@@ -17,17 +17,18 @@ const Portfolio = () => {
                 <h6 className="section_title_text">Portfolio</h6>
             </Grid> 
         {/*TABS */}
-        <Grid item xs={12}>
+        <Grid item xs={12} className="flexer">
             <Tabs value={tabValue} indicator='white' className='customTabs' onChange={(event, newValue) => setTabValue(newValue)}>
                 <Tab label='All' value='All' className={tabValue == 'All' ? 'customTabs_item active': 'customTabs_item'} />
                 {[...new Set(resumeData.projects.map(item => item.tag))].map(tag => (
                     <Tab label={tag} value={tag} className={tabValue == tag ? 'customTabs_item active': 'customTabs_item'}/>
                 ))}
             </Tabs>
+            <p className={"number"}># {resumeData.projects.filter(proj => proj.tag === tabValue ? (proj) : tabValue === "All" ? (resumeData.projects) :("")).length} projects</p>
         </Grid>
         <Grid item>
             <Grid container spacing={3}>
-                {resumeData.projects.map(project => (
+                {resumeData.projects.map((project) => (
                     <>
                     {tabValue == project.tag || tabValue == 'All' ? (
 
@@ -45,9 +46,11 @@ const Portfolio = () => {
                         </Card>
                         </Grow>
                         </Grid>
+                        
                     ) : null}
                     </>
-                ))}
+                )
+                )}
             </Grid>
         </Grid>
         <Dialog className="projectDialog" open={projectDialog} onClose={() => setProjectDialog(false)}>
@@ -63,9 +66,6 @@ const Portfolio = () => {
             )) }
             </DialogActions>
         </Dialog>
-        <Grid item className="numprojcontainer">
-            <p className="numberofprojects">A total of {resumeData.projects.length} projects</p>
-        </Grid>
        </Grid>
 
     );

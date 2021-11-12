@@ -92,4 +92,26 @@
   justify-content: center;
   width: 100%;
 }
+.flexer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.number {
+  padding-top: 11px;
+  color: #7b7e81;
+  align-self: flex-start;
+  margin-left: auto;
+  margin-right: 30px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+  .number {
+    margin: 0;
+  }
+  .flexer {
+    flex-direction: column;
+  }
+}
 /*END OF DIALOG */

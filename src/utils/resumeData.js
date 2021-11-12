@@ -144,215 +144,7 @@ export default {
         }
     ],
     projects: [
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: technicalDoc,
-            title: 'A Technical documentation',
-            caption: 'A Technical documentation page made with HTML and CSS',
-            description: 'A Technical documentation page made with HTML and CSS. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/technical-documentation', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: portofolio,
-            title: 'A Portfolio page',
-            caption: 'A basic portofolio page made with HTML and CSS',
-            description: 'A basic portofolio page made with HTML and CSS. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/personal-portfolio-HTMLCSS', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: landing,
-            title: 'A Landing page',
-            caption: 'A Landing page made with HTML and CSS',
-            description: 'A Landing page made with HTML and CSS. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/product-landing', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: survey,
-            title: 'A Survey Form',
-            caption: 'A survey form made with HTML and CSS',
-            description: 'A survey form made with HTML and CSS. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/survey-form', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'Vanilla JS',
-            tags: ['HTML', 'CSS', 'Vanilla JS'],
-            image: Fyodor,
-            title: 'Dostoyevsky Tribute Page',
-            caption: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS',
-            description: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/Fyodor-Dostoyevsky', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'Vanilla JS',
-            tags: ['HTML', 'CSS', 'Vanilla JS'],
-            image: colorGenerator,
-            title: 'Color generator app',
-            caption: 'Color generator app with javascript',
-            description: 'A Color generator made with vanilla javascript. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/color-generator-js', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'Vanilla JS',
-            tags: ['HTML', 'CSS', 'Vanilla JS'],
-            image: counter,
-            title: 'Counter App',
-            caption: 'Counter app made with javascript',
-            description: 'A counter app made with vanilla javascript. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/counter-app', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: onepiece,
-            title: 'One Piece card design',
-            caption: 'One Piece card design using HTML and CSS',
-            description: 'I made a simple design for One piece anime. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/one-piece-card', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: narcos,
-            title: 'Movie Card with animation',
-            caption: 'Narcos tv show card design using HTML and CSS',
-            description: 'Narcos tv show card design using HTML and CSS, the animation was entirely made with pure CSS. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/movie-card-animation', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: logoanim,
-            title: 'Logo Animation with HTML & CSS',
-            caption: 'I made a login form with an animation using just HTML&CSS',
-            description: 'I made a login form with an animation using just HTML&CSS, everthing is made with pure CSS. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/logo-animation', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS'],
-            image: loginform,
-            title: 'Login Form With Animation',
-            caption: 'I made a login form with an animation using HTML&CSS',
-            description: 'I a login form with an animation using HTML & CSS, simple and straight to the point. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/login-form', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'Vanilla JS',
-            tags: ['HTML', 'CSS'],
-            image: sidemenu,
-            title: 'Responsive Side Menu',
-            caption: 'I made a responsive side menu using HTML&CSS',
-            description: 'I made a responsive side menu using HTML&CSS, simple and straight to the point. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/sidemenu', icon: <GitHubIcon />},
-            ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS', 'CSS Flexbox'],
-            image: emailtemp,
-            title: 'Email template',
-            caption: 'As a task in my internship in Alqoud Enterprise',
-            description: 'As a task in my internship in Alqoud Enterprise, I was asked to design an email template that can be used in a contact us form for an app we were developing. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/email-template', icon: <GitHubIcon />},
-            ]
-        },
-        {
-        tag: 'HTML & CSS',
-        tags: ['HTML', 'CSS', 'CSS Float', 'CSS Flexbox'],
-        image: psd,
-        title: 'PSD TO HTML & CSS',
-        caption: 'I turned a PSD file into HTML & CSS',
-        description: 'In this project I have downloaded a PSD I found online and tried to design it using HTML & CSS, and it took me some days but I was able to fully design it in a responsive way. Click on the icon to see the project on github.',
-        links:[
-            {link: 'https://github.com/MrAhmedEgeh/html-css-template1', icon: <GitHubIcon />}
-        ]
-        },
-        {
-            tag: 'HTML & CSS',
-            tags: ['HTML', 'CSS', 'Vanilla JS', 'Bootstrap Grid'],
-            image: pizza,
-            title: 'Pizza Website',
-            caption: 'A Pizza Website using HTML & CSS & Bootstrap',
-            description: 'In this project, I designed a website completely from scratch, the design is my original design I have not copied it, I used HTML, CSS and Bootstrap. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/pizzaWebsite', icon: <GitHubIcon />}
-            ]
-            },
-        {
-        tag: 'Vanilla JS',
-        tags: ['HTML', 'CSS', 'Vanilla JS', 'JS OOP'],
-        image: todo,
-        title: 'Todo List App',
-        caption: 'Using OOP JS I have created Todo list app',
-        description: 'I created this project to train myself to Object oriented programming using javascript, I am fimiliar with Object oreinted programming in many languages but this was my first in Javascript. Click on the icon to see the project on github.',
-        links:[
-            {link: 'https://github.com/MrAhmedEgeh/todo-app-JS-OOP', icon: <GitHubIcon />}
-        ]
-        },
-        {
-            tag: 'Vanilla JS',
-            tags: ['HTML', 'CSS', 'Vanilla JS'],
-            image: fatine,
-            title: 'Portfolio Website',
-            caption: 'A portfolio website for a friend',
-            description: 'I created this website using HTML, CSS and Javascript for a friend so he can put out his skills and knowledge for potential recruiters.',
-            links:[
-                {link: 'https://fatine.ga', icon: <LanguageIcon />}
-            ]
-            },
-        {
-            tag: 'Vanilla JS',
-            tags: ['HTML', 'CSS', 'Vanilla JS'],
-            image: faq,
-            title: 'FAQ Page',
-            caption: 'FAQ Page using vanilla JS',
-            description: 'This is a quite simple project I made on the spot using Javascript, it is a simple FAQ page. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/FAQ-JS', icon: <GitHubIcon />}
-            ]
-        },
-        {
-            tag: 'Vanilla JS',
-            tags: ['HTML', 'CSS', 'Vanilla JS'],
-            image: tic,
-            title: 'Tic Tac Toe',
-            caption: 'I made a User against computer tic tac toe',
-            description: 'This project was hectic but fun also, I created it using vanilla JS, it is a tic tac toe and the player plays against the computer. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-vanilla-JS', icon: <GitHubIcon />}
-            ]
-        },
+        /*---------REACT-----------------*/
         {
             tag: 'React JS',
             tags: ['React Js'],
@@ -419,5 +211,216 @@ export default {
                 {link: 'https://github.com/MrAhmedEgeh/react-todo-app', icon: <GitHubIcon />}
             ]
         },
+        /*-------VANILLA JS--------------*/
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
+            image: Fyodor,
+            title: 'Dostoyevsky Tribute Page',
+            caption: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS',
+            description: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/Fyodor-Dostoyevsky', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
+            image: colorGenerator,
+            title: 'Color generator app',
+            caption: 'Color generator app with javascript',
+            description: 'A Color generator made with vanilla javascript. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/color-generator-js', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS'],
+            image: counter,
+            title: 'Counter App',
+            caption: 'Counter app made with javascript',
+            description: 'A counter app made with vanilla javascript. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/counter-app', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS'],
+            image: sidemenu,
+            title: 'Responsive Side Menu',
+            caption: 'I made a responsive side menu using HTML&CSS',
+            description: 'I made a responsive side menu using HTML&CSS, simple and straight to the point. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/sidemenu', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'Vanilla JS',
+            tags: ['HTML', 'CSS', 'Vanilla JS', 'JS OOP'],
+            image: todo,
+            title: 'Todo List App',
+            caption: 'Using OOP JS I have created Todo list app',
+            description: 'I created this project to train myself to Object oriented programming using javascript, I am fimiliar with Object oreinted programming in many languages but this was my first in Javascript. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/todo-app-JS-OOP', icon: <GitHubIcon />}
+            ]
+            },
+            {
+                tag: 'Vanilla JS',
+                tags: ['HTML', 'CSS', 'Vanilla JS'],
+                image: fatine,
+                title: 'Portfolio Website',
+                caption: 'A portfolio website for a friend',
+                description: 'I created this website using HTML, CSS and Javascript for a friend so he can put out his skills and knowledge for potential recruiters.',
+                links:[
+                    {link: 'https://fatine.ga', icon: <LanguageIcon />}
+                ]
+                },
+            {
+                tag: 'Vanilla JS',
+                tags: ['HTML', 'CSS', 'Vanilla JS'],
+                image: faq,
+                title: 'FAQ Page',
+                caption: 'FAQ Page using vanilla JS',
+                description: 'This is a quite simple project I made on the spot using Javascript, it is a simple FAQ page. Click on the icon to see the project on github.',
+                links:[
+                    {link: 'https://github.com/MrAhmedEgeh/FAQ-JS', icon: <GitHubIcon />}
+                ]
+            },
+            {
+                tag: 'Vanilla JS',
+                tags: ['HTML', 'CSS', 'Vanilla JS'],
+                image: tic,
+                title: 'Tic Tac Toe',
+                caption: 'I made a User against computer tic tac toe',
+                description: 'This project was hectic but fun also, I created it using vanilla JS, it is a tic tac toe and the player plays against the computer. Click on the icon to see the project on github.',
+                links:[
+                    {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-vanilla-JS', icon: <GitHubIcon />}
+                ]
+            },
+        /*------HTML & CSS---------------*/
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: technicalDoc,
+            title: 'A Technical documentation',
+            caption: 'A Technical documentation page made with HTML and CSS',
+            description: 'A Technical documentation page made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/technical-documentation', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: portofolio,
+            title: 'A Portfolio page',
+            caption: 'A basic portofolio page made with HTML and CSS',
+            description: 'A basic portofolio page made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/personal-portfolio-HTMLCSS', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: landing,
+            title: 'A Landing page',
+            caption: 'A Landing page made with HTML and CSS',
+            description: 'A Landing page made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/product-landing', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: survey,
+            title: 'A Survey Form',
+            caption: 'A survey form made with HTML and CSS',
+            description: 'A survey form made with HTML and CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/survey-form', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: onepiece,
+            title: 'One Piece card design',
+            caption: 'One Piece card design using HTML and CSS',
+            description: 'I made a simple design for One piece anime. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/one-piece-card', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: narcos,
+            title: 'Movie Card with animation',
+            caption: 'Narcos tv show card design using HTML and CSS',
+            description: 'Narcos tv show card design using HTML and CSS, the animation was entirely made with pure CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/movie-card-animation', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: logoanim,
+            title: 'Logo Animation with HTML & CSS',
+            caption: 'I made a login form with an animation using just HTML&CSS',
+            description: 'I made a login form with an animation using just HTML&CSS, everthing is made with pure CSS. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/logo-animation', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS'],
+            image: loginform,
+            title: 'Login Form With Animation',
+            caption: 'I made a login form with an animation using HTML&CSS',
+            description: 'I a login form with an animation using HTML & CSS, simple and straight to the point. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/login-form', icon: <GitHubIcon />},
+            ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS', 'CSS Flexbox'],
+            image: emailtemp,
+            title: 'Email template',
+            caption: 'As a task in my internship in Alqoud Enterprise',
+            description: 'As a task in my internship in Alqoud Enterprise, I was asked to design an email template that can be used in a contact us form for an app we were developing. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/email-template', icon: <GitHubIcon />},
+            ]
+        },
+        {
+        tag: 'HTML & CSS',
+        tags: ['HTML', 'CSS', 'CSS Float', 'CSS Flexbox'],
+        image: psd,
+        title: 'PSD TO HTML & CSS',
+        caption: 'I turned a PSD file into HTML & CSS',
+        description: 'In this project I have downloaded a PSD I found online and tried to design it using HTML & CSS, and it took me some days but I was able to fully design it in a responsive way. Click on the icon to see the project on github.',
+        links:[
+            {link: 'https://github.com/MrAhmedEgeh/html-css-template1', icon: <GitHubIcon />}
+        ]
+        },
+        {
+            tag: 'HTML & CSS',
+            tags: ['HTML', 'CSS', 'Vanilla JS', 'Bootstrap Grid'],
+            image: pizza,
+            title: 'Pizza Website',
+            caption: 'A Pizza Website using HTML & CSS & Bootstrap',
+            description: 'In this project, I designed a website completely from scratch, the design is my original design I have not copied it, I used HTML, CSS and Bootstrap. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/pizzaWebsite', icon: <GitHubIcon />}
+            ]
+            },
 ]
 }
