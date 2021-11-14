@@ -147,35 +147,24 @@ export default {
         /*---------REACT-----------------*/
         {
             tag: 'React JS',
-            tags: ['React Js'],
-            image: pass,
-            title: 'Password Generator',
-            caption: 'Password generator using React js',
-            description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
+            tags: ['React Js', 'SASS'],
+            image: todoApp,
+            title: 'Todo List App',
+            caption: 'A Todo List App made by using React js and its hooks and SASS',
+            description: 'This project is a Todo App made by React js and its hooks like useEffect, useRef and useState and also by using SASS instead of CSS. Click on the icon to see the project on github.',
             links:[
-                {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
+                {link: 'https://github.com/MrAhmedEgeh/react-todo-app', icon: <GitHubIcon />}
             ]
         },
         {
             tag: 'React JS',
             tags: ['React Js'],
-            image: calc,
-            title: 'Calculator',
-            caption: 'A calculator using React JS',
-            description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
+            image: weather,
+            title: 'Weather App',
+            caption: 'A Weather App I made using React js',
+            description: 'This project is a weather app made using React js and I used a weather API from open weather map site. Click on the icon to see the project on github.',
             links:[
-                {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
-            ]
-        },
-        {
-            tag: 'React JS',
-            tags: ['React Js'],
-            image: toe,
-            title: 'Tic Tac Toe',
-            caption: 'A Tic Tac Toe using React JS',
-            description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
-            links:[
-                {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
+                {link: 'https://github.com/MrAhmedEgeh/weather-app', icon: <GitHubIcon />}
             ]
         },
         {
@@ -192,23 +181,34 @@ export default {
         {
             tag: 'React JS',
             tags: ['React Js'],
-            image: weather,
-            title: 'Weather App',
-            caption: 'A Weather App I made using React js',
-            description: 'This project is a weather app made using React js and I used a weather API from open weather map site. Click on the icon to see the project on github.',
+            image: toe,
+            title: 'Tic Tac Toe',
+            caption: 'A Tic Tac Toe using React JS',
+            description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
             links:[
-                {link: 'https://github.com/MrAhmedEgeh/weather-app', icon: <GitHubIcon />}
+                {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
             ]
         },
         {
             tag: 'React JS',
-            tags: ['React Js', 'SASS'],
-            image: todoApp,
-            title: 'Todo List App',
-            caption: 'A Todo List App made by using React js and its hooks and SASS',
-            description: 'This project is a Todo App made by React js and its hooks like useEffect, useRef and useState and also by using SASS instead of CSS. Click on the icon to see the project on github.',
+            tags: ['React Js'],
+            image: calc,
+            title: 'Calculator',
+            caption: 'A calculator using React JS',
+            description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
             links:[
-                {link: 'https://github.com/MrAhmedEgeh/react-todo-app', icon: <GitHubIcon />}
+                {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
+            ]
+        },
+        {
+            tag: 'React JS',
+            tags: ['React Js'],
+            image: pass,
+            title: 'Password Generator',
+            caption: 'Password generator using React js',
+            description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
             ]
         },
         /*-------VANILLA JS--------------*/
