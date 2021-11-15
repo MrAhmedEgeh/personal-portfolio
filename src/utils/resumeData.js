@@ -153,6 +153,7 @@ export default {
             caption: 'A Todo List App made by using React js and its hooks and SASS',
             description: 'This project is a Todo App made by React js and its hooks like useEffect, useRef and useState and also by using SASS instead of CSS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/react-todo-app/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/react-todo-app', icon: <GitHubIcon />}
             ]
         },
@@ -164,6 +165,7 @@ export default {
             caption: 'A Weather App I made using React js',
             description: 'This project is a weather app made using React js and I used a weather API from open weather map site. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/weather-app/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/weather-app', icon: <GitHubIcon />}
             ]
         },
@@ -175,6 +177,7 @@ export default {
             caption: 'An Image slider using React js',
             description: 'This project is an image slider made with React js. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/react-image-slider/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/react-image-slider', icon: <GitHubIcon />}
             ]
         },
@@ -186,6 +189,7 @@ export default {
             caption: 'A Tic Tac Toe using React JS',
             description: 'Another tic tac toe game but this time created using React js, learned so much about react and made me think as a React js developer. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/tic-tac-toe-React/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-React', icon: <GitHubIcon />}
             ]
         },
@@ -197,6 +201,7 @@ export default {
             caption: 'A calculator using React JS',
             description: 'This is one of my favourit project because it made me dive deeper into React js and understand much about things like states and hooks. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/calculator-react/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/calculator-react', icon: <GitHubIcon />}
             ]
         },
@@ -208,6 +213,7 @@ export default {
             caption: 'Password generator using React js',
             description: 'I created this project as my first React js project and it was simple and fun to develop, it is a password generator which also has a copy password feature. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/passwordGenerator/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/passwordGenerator', icon: <GitHubIcon />}
             ]
         },
@@ -220,6 +226,7 @@ export default {
             caption: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS',
             description: 'Fyodor Dostoyevsky Tribute Page made with HTML, CSS and JS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/Fyodor-Dostoyevsky/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/Fyodor-Dostoyevsky', icon: <GitHubIcon />},
             ]
         },
@@ -231,6 +238,7 @@ export default {
             caption: 'Color generator app with javascript',
             description: 'A Color generator made with vanilla javascript. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/color-generator-js/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/color-generator-js', icon: <GitHubIcon />},
             ]
         },
@@ -242,6 +250,7 @@ export default {
             caption: 'Counter app made with javascript',
             description: 'A counter app made with vanilla javascript. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/counter-app/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/counter-app', icon: <GitHubIcon />},
             ]
         },
@@ -253,6 +262,7 @@ export default {
             caption: 'I made a responsive side menu using HTML&CSS',
             description: 'I made a responsive side menu using HTML&CSS, simple and straight to the point. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/sidemenu/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/sidemenu', icon: <GitHubIcon />},
             ]
         },
@@ -264,6 +274,7 @@ export default {
             caption: 'Using OOP JS I have created Todo list app',
             description: 'I created this project to train myself to Object oriented programming using javascript, I am fimiliar with Object oreinted programming in many languages but this was my first in Javascript. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/todo-app-JS-OOP/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/todo-app-JS-OOP', icon: <GitHubIcon />}
             ]
             },
@@ -286,6 +297,7 @@ export default {
                 caption: 'FAQ Page using vanilla JS',
                 description: 'This is a quite simple project I made on the spot using Javascript, it is a simple FAQ page. Click on the icon to see the project on github.',
                 links:[
+                    {link: 'https://mrahmedegeh.github.io/FAQ-JS/', icon: <LanguageIcon />},
                     {link: 'https://github.com/MrAhmedEgeh/FAQ-JS', icon: <GitHubIcon />}
                 ]
             },
@@ -297,6 +309,7 @@ export default {
                 caption: 'I made a User against computer tic tac toe',
                 description: 'This project was hectic but fun also, I created it using vanilla JS, it is a tic tac toe and the player plays against the computer. Click on the icon to see the project on github.',
                 links:[
+                    {link: 'https://mrahmedegeh.github.io/tic-tac-toe-vanilla-JS/', icon: <LanguageIcon />},
                     {link: 'https://github.com/MrAhmedEgeh/tic-tac-toe-vanilla-JS', icon: <GitHubIcon />}
                 ]
             },
@@ -309,6 +322,7 @@ export default {
             caption: 'A Technical documentation page made with HTML and CSS',
             description: 'A Technical documentation page made with HTML and CSS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/technical-documentation/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/technical-documentation', icon: <GitHubIcon />},
             ]
         },
@@ -320,6 +334,7 @@ export default {
             caption: 'A basic portofolio page made with HTML and CSS',
             description: 'A basic portofolio page made with HTML and CSS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/personal-portfolio-HTMLCSS/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/personal-portfolio-HTMLCSS', icon: <GitHubIcon />},
             ]
         },
@@ -331,6 +346,7 @@ export default {
             caption: 'A Landing page made with HTML and CSS',
             description: 'A Landing page made with HTML and CSS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/product-landing/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/product-landing', icon: <GitHubIcon />},
             ]
         },
@@ -342,6 +358,7 @@ export default {
             caption: 'A survey form made with HTML and CSS',
             description: 'A survey form made with HTML and CSS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/survey-form/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/survey-form', icon: <GitHubIcon />},
             ]
         },
@@ -353,6 +370,7 @@ export default {
             caption: 'One Piece card design using HTML and CSS',
             description: 'I made a simple design for One piece anime. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/one-piece-card/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/one-piece-card', icon: <GitHubIcon />},
             ]
         },
@@ -364,6 +382,7 @@ export default {
             caption: 'Narcos tv show card design using HTML and CSS',
             description: 'Narcos tv show card design using HTML and CSS, the animation was entirely made with pure CSS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/movie-card-animation/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/movie-card-animation', icon: <GitHubIcon />},
             ]
         },
@@ -375,6 +394,7 @@ export default {
             caption: 'I made a login form with an animation using just HTML&CSS',
             description: 'I made a login form with an animation using just HTML&CSS, everthing is made with pure CSS. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/logo-animation/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/logo-animation', icon: <GitHubIcon />},
             ]
         },
@@ -386,6 +406,7 @@ export default {
             caption: 'I made a login form with an animation using HTML&CSS',
             description: 'I a login form with an animation using HTML & CSS, simple and straight to the point. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/login-form/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/login-form', icon: <GitHubIcon />},
             ]
         },
@@ -397,6 +418,7 @@ export default {
             caption: 'As a task in my internship in Alqoud Enterprise',
             description: 'As a task in my internship in Alqoud Enterprise, I was asked to design an email template that can be used in a contact us form for an app we were developing. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/email-template/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/email-template', icon: <GitHubIcon />},
             ]
         },
@@ -408,6 +430,7 @@ export default {
         caption: 'I turned a PSD file into HTML & CSS',
         description: 'In this project I have downloaded a PSD I found online and tried to design it using HTML & CSS, and it took me some days but I was able to fully design it in a responsive way. Click on the icon to see the project on github.',
         links:[
+            {link: 'https://mrahmedegeh.github.io/html-css-template1/', icon: <LanguageIcon />},
             {link: 'https://github.com/MrAhmedEgeh/html-css-template1', icon: <GitHubIcon />}
         ]
         },
@@ -419,6 +442,7 @@ export default {
             caption: 'A Pizza Website using HTML & CSS & Bootstrap',
             description: 'In this project, I designed a website completely from scratch, the design is my original design I have not copied it, I used HTML, CSS and Bootstrap. Click on the icon to see the project on github.',
             links:[
+                {link: 'https://mrahmedegeh.github.io/pizzaWebsite/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/pizzaWebsite', icon: <GitHubIcon />}
             ]
             },
