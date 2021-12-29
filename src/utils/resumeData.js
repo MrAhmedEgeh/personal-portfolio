@@ -148,7 +148,7 @@ export default {
         /*---------REACT-----------------*/
         {
             tag: 'React JS',
-            tags: ['React Js', 'SASS', 'React Router v6', 'Bootstrap', 'Firebase'],
+            tags: ['React Js', 'SASS', 'React Router v6', 'Bootstrap', 'Firebase', 'Context API'],
             image: quizhubb,
             title: 'Quiz Hubb',
             caption: 'A quiz app made by React, Router, SASS and Firebase',
