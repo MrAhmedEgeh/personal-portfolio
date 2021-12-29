@@ -35,6 +35,7 @@ import imgslider from '../assests/images/imgslider.png';
 import weather from '../assests/images/weather.png';
 import fatine from '../assests/images/fatine.png';
 import todoApp from '../assests/images/todoApp.png';
+import quizhubb from '../assests/images/Quiz Hubb.png';
 
 export default {
     name: 'Ahmed Egeh',
@@ -145,6 +146,18 @@ export default {
     ],
     projects: [
         /*---------REACT-----------------*/
+        {
+            tag: 'React JS',
+            tags: ['React Js', 'SASS', 'React Router v6', 'Bootstrap', 'Firebase'],
+            image: quizhubb,
+            title: 'Quiz Hubb',
+            caption: 'A quiz app made by React, Router, SASS and Firebase',
+            description: 'This project was an idea I came up with during a conversation with a firend, it is basically a quiz app that have 8 categorize and user can take any quizzes under any ctategory, also if the user wants to add his own quizzes then he will create an account then add his quizzes under his name. This project is huge and I made using many technologies, it has carefully written and programmed functionalities. click on the link below to use the web app or Click on the icon to see the project on github.',
+            links:[
+                {link: 'https://mrahmedegeh.github.io/quiz-app/', icon: <LanguageIcon />},
+                {link: 'https://github.com/MrAhmedEgeh/quiz-app', icon: <GitHubIcon />}
+            ]
+        },
         {
             tag: 'React JS',
             tags: ['React Js', 'SASS'],
