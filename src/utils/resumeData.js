@@ -154,7 +154,7 @@ export default {
             caption: 'A quiz app made by React, Router, SASS and Firebase',
             description: 'This project was an idea I came up with during a conversation with a firend, it is basically a quiz app that have 8 categorize and user can take any quizzes under any ctategory, also if the user wants to add his own quizzes then he will create an account then add his quizzes under his name. This project is huge and I made using many technologies, it has carefully written and programmed functionalities. click on the link below to use the web app or Click on the icon to see the project on github.',
             links:[
-                {link: 'https://mrahmedegeh.github.io/quiz-app/', icon: <LanguageIcon />},
+                {link: 'https://epic-sammet-8229bb.netlify.app/', icon: <LanguageIcon />},
                 {link: 'https://github.com/MrAhmedEgeh/quiz-app', icon: <GitHubIcon />}
             ]
         },
