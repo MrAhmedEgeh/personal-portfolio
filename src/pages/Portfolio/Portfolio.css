@@ -43,6 +43,7 @@
   background-color: var(--main-color);
   padding: 5px;
   border-radius: 20px;
+  display: inline-block;
 }
 .custom_card_caption {
   color: gray !important;
