@@ -26,7 +26,7 @@ const Portfolio = () => {
             </Tabs>
             <p className={"number"}># {resumeData.projects.filter(proj => proj.tag === tabValue ? (proj) : tabValue === "All" ? (resumeData.projects) :("")).length} projects</p>
         </Grid>
-        <Grid item>
+        <Grid item style={{maxWidth: '100%', width: '100%'}}>
             <Grid container spacing={3}>
                 {resumeData.projects.map((project) => (
                     <>
