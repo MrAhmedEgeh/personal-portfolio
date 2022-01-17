@@ -36,6 +36,7 @@ import weather from '../assests/images/weather.png';
 import fatine from '../assests/images/fatine.png';
 import todoApp from '../assests/images/todoApp.png';
 import quizhubb from '../assests/images/Quiz Hubb.png';
+import gradproj from '../assests/images/gradproj.png';
 
 export default {
     name: 'Ahmed Egeh',
@@ -145,6 +146,19 @@ export default {
         }
     ],
     projects: [
+        {
+            tag: 'Unity & C#',
+            tags: ['Unity', 'C#', 'PHP', 'MYSQL', 'JSON', 'Android'],
+            image: gradproj,
+            title: 'Graduation Project',
+            caption: 'My bachelor of Information Technology Graduation project',
+            description: 'I created an Android 2D Mobile game using Unity and C# in the Front End and using PHP and MYSQL in the Back End, this was my graduation project and it was presented to the committee on 14 January 2022. You can click on one of the github link for Unity and C# files and the other github link for PHP and MYSQL. Additionally, you can click on the other link for the APK file for the installation',
+            links:[
+                {link: 'https://drive.google.com/file/d/1XXO9Zlw3xIMpR6lwO5L6Z62J7pqaGHYZ/view?usp=sharing', icon: <LanguageIcon />},
+                {link: 'https://github.com/MrAhmedEgeh/gradprojui', icon: <GitHubIcon />},
+                {link: 'https://github.com/MrAhmedEgeh/gradprojbackend', icon: <GitHubIcon />}
+            ]
+        },
         /*---------REACT-----------------*/
         {
             tag: 'React JS',
