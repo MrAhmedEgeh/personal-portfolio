@@ -100,7 +100,7 @@ export default {
             title: 'Eircan Language Center',
             place: 'Malaysia - Kuala Lumpur',
             date: 'Juanuary 2017 - May 2017',
-            description: 'Assistant in a Building materials company when I was responsible of paper work and making reports and also fixing, updating and maintaining programs and PCs for the company'
+            description: 'In 2017 I have studied for 7 months in an intensive course for Enlish Language to level up my overall English language, after finishing the 7 months I applied for IELTS exam and got a score of 6 from the first time.'
         },
         {
             title: 'Al Khobar High School',
