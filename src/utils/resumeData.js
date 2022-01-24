@@ -85,7 +85,7 @@ export default {
         {
             title: 'Help disk',
             place: 'Saudi Arabia - AL Khobar',
-            date: 'Juanuary 2017 - May 2017',
+            date: 'June 2017 - December 2017',
             description: 'Assistant in a Building materials company where I was responsible of paper work and making reports and also fixing, updating and maintaining programs and PCs for the company'
         }
     ],
