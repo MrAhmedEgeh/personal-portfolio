@@ -147,7 +147,7 @@ export default {
     ],
     projects: [
         {
-            tag: 'Unity & C#',
+            tag: 'C#',
             tags: ['Unity', 'C#', 'PHP', 'MYSQL', 'JSON', 'Android'],
             image: gradproj,
             title: 'Graduation Project',
