@@ -93,7 +93,7 @@ export default {
         {
             title: 'Eastern Mediterranean University',
             place: 'Cyprus - Famagusta',
-            date: 'September 2018 - Until now',
+            date: 'September 2018 - February 2022',
             description: 'I am a student of bachelor of information tecnology in Eastern Mediterranean University, I am at my 4th year right now and I have completed the previous semesters as honor student, my current CGPA is 3.22'
         },
         {
