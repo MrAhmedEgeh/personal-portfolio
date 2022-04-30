@@ -76,6 +76,12 @@ export default {
     },
     aboutme: `I am a passionate web developer who's not only in love with the web but with programming and IT in general. I currently in my last year and will graduate in February 2022.  I am a full stack web developer, I use React JS in the Front End and PHP AND MYSQL in the Back end. \n\n Learning new technologies and frameworks facientae me and keep me fired up, I am always trying to learn and get new skills, I might not be the smartest in the room but I am definitely the hardest worker`,
     experiences: [
+         {
+            title: 'Full stack developer',
+            place: 'Netherland',
+            date: '28th March 2022 - Present',
+            description: 'I am currently working as a full stack developer in company called cobrowser in the netherlands. Day to day I am working with AngularJS, PHP Symfony, NodeJS, MongoDB and some other internal services such as Elasticsearch, RabbitMQ and Ejabberd. Learning new things everyday and imporving myself as a developer.'
+        },
         {
             title: 'Web & App developer intern',
             place: 'Bahrain - Manama',
